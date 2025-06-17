@@ -58,7 +58,7 @@ class Car:
         pass # No code here yet
         self.car_dict = {}
 
-    def add_tyre(self, position):
+    def add_tyre(self):
         # Parameters:
         #   track: add a tyre to the dict
         # Side-effects:
@@ -89,7 +89,7 @@ class Tyre:
         # Side-effects:
         #   Sets the title and artist properties
         pass # No code here yet
-        self._tyre = []
+        self._tyre_readings = []
 
     def add_reading(self, tyre_pressure , tyre_tread_depth, current_date):
         # Returns:
